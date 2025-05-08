@@ -1,0 +1,48 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b {
+    font-weight: bold;
+}
+
+header {
+    background-color: bueviolet;
+    height: 110px;
+    position: relative;
+    top: 20px;
+}
+
+.titulo, .subtitulo, .txt {
+    text-align: center;
+}
+
+.quadro {
+    background-color: gray;
+    width: 35%;
+    height: 60%;
+    min-height: 500px;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+.esquerda {
+    position: relative;
+    left: 10%;
+}
+
+.direita {
+    position: relative;
+    left: 20%;
+}
+
+.txt {
+    position: relative;
+    top: 10px;
+    left: 10%;
+    width: 80%;
+    font-display: justify;
+    font-size: large;
+    line-height: 30px;
+}
