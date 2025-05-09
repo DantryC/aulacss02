@@ -25,6 +25,7 @@ header {
     min-height: 500px;
     display: inline-block;
     border-radius: 40px;
+    margin: 10px auto; /* Add margin for spacing */
 }
 
 .esquerda {
@@ -45,4 +46,21 @@ header {
     font-display: justify;
     font-size: large;
     line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    .quadro {
+        width: 90%; /* Make the quadro take most of the screen width */
+        display: block; /* Stack the elements vertically */
+    }
+
+    .esquerda, .direita {
+        position: static; /* Reset positioning for mobile view */
+        left: 0;
+    }
+
+    .txt {
+        left: 0; /* Adjust text alignment */
+        width: 100%;
+    }
 }
